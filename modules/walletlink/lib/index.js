@@ -6,7 +6,7 @@ global.provider = (config) => new Promise((resolve) => {
   const CHAIN_ID = (new ethers.providers.InfuraProvider(config.provider.network))._network.chainId;
 
   // Initialize WalletLink
-  const walletLink = new WalletLink({
+  export const walletLink = new WalletLink({
     appName: 'ENSLogin'
   })
   
