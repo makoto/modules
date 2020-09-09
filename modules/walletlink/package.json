@@ -17,7 +17,7 @@
     "bundle": "webpack",
     "build": "yarn bundle",
     "clean": "rm -r public/*",
-    "export": "cp -r public/* --"
+    "export": "cp -r public/*"
   },
   "dependencies": {
     "ethers": "^5.0.12",
